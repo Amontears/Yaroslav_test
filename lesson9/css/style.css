@@ -1,0 +1,28 @@
+
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Mynerve:regular&display=swap);
+
+
+[class*="title"] {
+	font-family: Mynerve, serif;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+}
+[class*="__container"] {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+header, 
+main,
+footer {
+	margin: 0 auto;
+}
+.top_images {
+	text-align: center;
+}
+.top_images img {
+	max-width: 1200px; /* ЕСЛИ ХОЧЕШЬ НА КАРТИНКУ НА ВСЮ ШИРИНУ УДАЛИ ЭТУ СТРОЧКУ*/
+	width: 100%;
+}
+
